@@ -9,9 +9,11 @@ public class HelloJava {
         //create new window, with value for title bar
         JFrame frame = new JFrame("Hello, Java!");
         //instance of JLabel is like physical label, holds text at particular position
-        JLabel label = new JLabel("Hello, Java!", JLabel.CENTER );
+//        JLabel label = new JLabel("Hello, Java!", JLabel.CENTER );
         //use method add(), to place label inside JFrame (JFrame acts as a container)
-        frame.add(label);
+//        frame.add(label);
+        //replaced JLabel lines with this add() method for new instance of class HelloComponent()
+        frame.add( new HelloComponent());
         //use method setSize() to set size of JLabel
         frame.setSize(300, 300 );
         //show frame window and its contents, default is invisible, use setVisible() method to see
