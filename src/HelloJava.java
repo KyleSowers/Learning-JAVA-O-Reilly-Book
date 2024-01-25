@@ -17,3 +17,7 @@ public class HelloJava {
         frame.setVisible(true);
     }
 }
+
+class HelloComponent {
+
+}
