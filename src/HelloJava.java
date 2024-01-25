@@ -20,10 +20,11 @@ public class HelloJava {
         frame.setVisible(true);
     }
 }
-
+//created a new class seperate of the main file class, extends the generic graphical class JComponent
 class HelloComponent extends JComponent {
-
+    //This new typ of JComponent uses a created method, using Graphics as its type, for display/output
     public void paintComponent( Graphics g ) {
+        //using argument input g to call drawstring()method to print/display String message
         g.drawString("Hello, Java", 125, 95);
     }
 }
