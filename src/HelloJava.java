@@ -1,6 +1,7 @@
 package src;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class HelloJava {
     public static void main(String[] args) {
@@ -20,4 +21,7 @@ public class HelloJava {
 
 class HelloComponent extends JComponent {
 
+    public void paintComponent( Graphics g ) {
+
+    }
 }
