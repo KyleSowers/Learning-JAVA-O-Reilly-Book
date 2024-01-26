@@ -14,6 +14,6 @@ public class HelloJava2 {
     }
 }
 
-class HelloComponent2 {
+class HelloComponent2 extends JComponent {
 
 }
