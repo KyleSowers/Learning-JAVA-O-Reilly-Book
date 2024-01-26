@@ -13,3 +13,7 @@ public class HelloJava2 {
         frame.setVisible( true );
     }
 }
+
+class HelloComponent2 {
+
+}
