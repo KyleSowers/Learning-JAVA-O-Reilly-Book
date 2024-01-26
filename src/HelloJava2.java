@@ -17,4 +17,5 @@ public class HelloJava2 {
 
 class HelloComponent2 extends JComponent implements MouseMotionListener {
 
+    String theMessage;
 }
