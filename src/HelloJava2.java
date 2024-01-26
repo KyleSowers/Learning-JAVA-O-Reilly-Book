@@ -37,4 +37,6 @@ class HelloComponent2 extends JComponent implements MouseMotionListener {
         messageY = e.getY();
         repaint();
     }
+
+    public void mouseMoved(MouseEvent e) {}
 }
