@@ -35,5 +35,6 @@ class HelloComponent2 extends JComponent implements MouseMotionListener {
         //save the mouse coordinates and paint the message
         messageX = e.getX();
         messageY = e.getY();
+        repaint();
     }
 }
