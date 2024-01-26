@@ -18,4 +18,5 @@ public class HelloJava2 {
 class HelloComponent2 extends JComponent implements MouseMotionListener {
 
     String theMessage;
+    int messageX = 125, messageY = 95; //Coordinates of the message
 }
