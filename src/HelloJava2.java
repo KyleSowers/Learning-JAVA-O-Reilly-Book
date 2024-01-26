@@ -1,6 +1,7 @@
 package src;
 
 import javax.swing.*;
+import java.awt.event.MouseMotionListener;
 
 public class HelloJava2 {
 
@@ -14,6 +15,6 @@ public class HelloJava2 {
     }
 }
 
-class HelloComponent2 extends JComponent {
+class HelloComponent2 extends JComponent implements MouseMotionListener {
 
 }
