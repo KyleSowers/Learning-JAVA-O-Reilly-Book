@@ -22,5 +22,6 @@ class HelloComponent2 extends JComponent implements MouseMotionListener {
 
     public HelloComponent2(String message) {
         theMessage = message;
+        addMouseMotionListener(this);
     }
 }
