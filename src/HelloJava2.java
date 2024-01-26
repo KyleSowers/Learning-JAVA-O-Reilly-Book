@@ -8,5 +8,6 @@ public class HelloJava2 {
 
         JFrame frame = new JFrame("HelloJava2");
         frame.add( new HelloComponent2("Hello, Java!"));
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }
