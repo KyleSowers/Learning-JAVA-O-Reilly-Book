@@ -2,6 +2,7 @@ package src;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionListener;
 
 public class HelloJava2 {
@@ -28,5 +29,9 @@ class HelloComponent2 extends JComponent implements MouseMotionListener {
 
     public void paintComponent(Graphics g) {
         g.drawString( theMessage, messageX, messageY);
+    }
+
+    public void mouseDragged(MouseEvent e) {
+
     }
 }
