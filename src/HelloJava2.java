@@ -19,4 +19,8 @@ class HelloComponent2 extends JComponent implements MouseMotionListener {
 
     String theMessage;
     int messageX = 125, messageY = 95; //Coordinates of the message
+
+    public HelloComponent2(String message) {
+
+    }
 }
